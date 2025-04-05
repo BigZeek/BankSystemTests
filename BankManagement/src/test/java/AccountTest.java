@@ -24,7 +24,7 @@ class AccountTest {
 	
 	@Test
 	void testGetAccountNumber() {
-		assertEquals(5051, testAccount.getAccountNumber(), "Unexpected account number.");
+		assertEquals("5051", testAccount.getAccountNumber(), "Unexpected account number.");
 	}
 	
 	@Test

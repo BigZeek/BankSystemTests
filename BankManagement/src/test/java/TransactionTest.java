@@ -29,18 +29,5 @@ class TransactionTest {
 		assertEquals(44, testTransaction.getTransactionID(), "Unexpected Transaction ID found.");
 	}
 	
-	@Test
-	void testVerifyTransaction() {
-		fail("Test not implemented.");
-	}
-	
-	@Test
-	void testDeposit() {
-		fail("Test not implemented.");
-	}
-	
-	@Test
-	void testWithdraw() {
-		fail("Test not implemented.");
-	}
+
 }
