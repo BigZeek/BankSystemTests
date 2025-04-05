@@ -7,12 +7,8 @@ import com.mycompany.bankmanagement.Account;
 
 class AccountTest {
 
-	private Account testAccount;
-	
-	@BeforeEach
-	void setUp() throws Exception {
-		Account testAccount = new Account(1000, "5051");
-	}
+	private Account testAccount = new Account(1000, "5051");
+
 
 	@Test
 	void testGetBalance() {

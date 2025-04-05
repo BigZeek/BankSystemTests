@@ -6,13 +6,7 @@ import org.junit.jupiter.api.Test;
 import com.mycompany.bankmanagement.Customer;
 class CustomerTest {
 
-	Customer testCustomer;
-	
-	@BeforeEach
-	void setUp() throws Exception {
-		// Setup generates default customer.
-		Customer testCustomer = new Customer();
-	}
+	private Customer testCustomer = new Customer();
 
 	@Test
 	void testToString() {

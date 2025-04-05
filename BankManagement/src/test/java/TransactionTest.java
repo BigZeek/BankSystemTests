@@ -7,12 +7,8 @@ import com.mycompany.bankmanagement.Transaction;
 
 class TransactionTest {
 	
-	Transaction testTransaction;
+	private Transaction testTransaction = new Transaction(1000);
 
-	@BeforeEach
-	void setUp() throws Exception {
-		Transaction testTransaction = new Transaction(1000);
-	}
 
 	@Test
 	void testGetOverrawLimit() {
